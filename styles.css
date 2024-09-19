@@ -1,0 +1,154 @@
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Form Section with Background */
+.form-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/85ff76db-39e5-423a-afbc-97d3e74db71b/null/ZA-en-20240909-TRIFECTA-perspective_642b1fe5-288d-4f73-bbec-8f98b038aa92_large.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Header and Logo inside the banner */
+.header {
+    
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 50px;
+    position: absolute;
+    top: 0;
+   
+}
+
+.header .logo img {
+    width: 150px;
+    height: auto;
+    padding-left: 110px;
+}
+
+/* Form Container Styles */
+.form-container {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 60px 68px;
+    max-width: 450px;
+    width: 100%;
+    border-radius: 4px;
+    text-align: left;
+    margin-top: 150px; /* Adjusted to give space for the logo */
+}
+
+.form-container h1 {
+    font-size: 32px;
+    margin-bottom: 28px;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    background: #333;
+    border: none;
+    color: #fff;
+}
+
+.form-container button {
+    width: 100%;
+    padding: 16px;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #8c8c8c;
+    margin-top: 10px;
+}
+
+.form-container .signup-prompt {
+    margin-top: 20px;
+}
+
+.form-container .signup-prompt p {
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.form-container .signup-prompt a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form-container .signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #181818;
+    padding: 40px 50px;
+    color: #757575;
+}
+
+.footer-top a {
+    text-decoration: none;
+    color: #757575;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.footer-links li {
+    text-decoration: none;
+    color: #757575;
+    cursor: pointer;
+}
+
+.footer-links li:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-bottom select {
+    padding: 10px;
+    background-color: #181818;
+    color: #757575;
+    border: 1px solid #757575;
+    border-radius: 2px;
+}
+
+.footer-bottom p {
+    color: #757575;
+}
